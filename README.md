@@ -9,8 +9,7 @@ This project was built to match the original SharePal visual design system, typo
 ## 🔗 Project & Submission Links
 
 - **Target Reference Page**: [SharePal Gaming Gadgets on Rent (Bangalore)](https://sharepal.in/bangalore/gaming-gadgets-on-rent)
-- **GitHub Repository**: *(Add your repository URL here)*
-- **Live Deployed URL**: *(Add your Vercel deployment URL here)*
+- **Live Deployed URL**: [https://sharepal-gaming-gadgets-clone.vercel.app](https://sharepal-gaming-gadgets-clone.vercel.app)
 
 ---
 
@@ -160,35 +159,3 @@ This project was built to match the original SharePal visual design system, typo
 
 ---
 
-## 🌐 Deploying to Vercel
-
-This application is built as a pure client-side Single Page Application (SPA). **No backend server or database is required** (no need to deploy to Render or AWS), making it 100% free and instantaneous to deploy on Vercel.
-
-### Method 1: Deploy via Vercel Web Dashboard (Recommended)
-
-1. Push your code to a new repository on **GitHub**.
-2. Go to [vercel.com](https://vercel.com/) and log in (with your GitHub account).
-3. Click **"Add New..."** > **"Project"**.
-4. Import your newly created GitHub repository.
-5. In the project configuration:
-   - **Framework Preset**: Vite (detected automatically)
-   - **Root Directory**: `./`
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-6. Click **Deploy**. Vercel will build the project and provide your live URL (e.g., `https://sharepal-gaming-gadgets.vercel.app`).
-
-### Method 2: Deploy via Vercel CLI
-
-```bash
-# 1. Install Vercel CLI globally
-npm i -g vercel
-
-# 2. Login to Vercel
-vercel login
-
-# 3. Deploy
-vercel
-
-# 4. Deploy to production
-vercel --prod
-```
